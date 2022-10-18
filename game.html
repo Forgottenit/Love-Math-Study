@@ -12,12 +12,13 @@
     <a href="index.html">HOME</a>
     <h1 class="question1" id="testQue">QUESTION</h1>
     <div class="flex-container">
-        <div class="choice1 flex-column" id="choice1" data-choice="1">A
+        <button class="choice1 flex-column" id="choice1" data-choice="1">A
             <p class="answer1">This is answer1</p>
-        </div>
-        <div class="choice2 flex-column" id="choice2" data-choice="1">B <p class="answer2">This is answer2<button onclick="question()">Change question</button></p></div>
-        <div class="choice3 flex-column" id="choice3" data-choice="1">C <p class="answer3">This is answer3</p></div>
-        <div class="choice4 flex-column" id="choice4" data-choice="1">D <p class="answer4">This is answer4</p></div>
+        </button>
+        <button class="choice2 flex-column" id="choice2" data-choice="1">B <p class="answer2"></p></button>
+        <button class="choice3 flex-column" id="choice3" data-choice="1">C <p class="answer3"></p></button>
+        <button class="choice4 flex-column" id="choice4" data-choice="1">D <p class="answer4"></p></button>
+        <button onclick="nextQuestion()">Change question</button>
        
     </div>
     <script src="game.js"></script>
